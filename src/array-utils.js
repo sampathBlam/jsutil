@@ -1,20 +1,19 @@
-'use strict';
 
 import validations from '../lib/validations';
 import constants from '../lib/constants';
 
 const { errorMessages } = constants;
 
-// Array utils 
+// Array utils
 // Dummy method. Will be removed
 const reverse = (arr) => {
-    if (!validations.arrayValidator(arr)) {
-        throw new Error(errorMessages.INVALID_INPUT);
-    }
+  if (!validations.arrayValidator(arr)) {
+    throw new Error(errorMessages.INVALID_INPUT);
+  }
 
-    return arr.reverse();
+  return arr.reverse();
 };
 
 export default {
-    reverse,
+  reverse,
 };
