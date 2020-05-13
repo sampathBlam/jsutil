@@ -1,0 +1,15 @@
+{
+  "name": "jsutil",
+  "version": "1.0.0",
+  "description": "JS Array and object utils",
+  "main": "dist/bundle.js",
+  "repository": "git@github.com:sampathBlam/jsutil.git",
+  "author": "existentialcoder <shravanayyappa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^2.9.1"
+  },
+  "scripts": {
+    "build": "rollup index.js --file dist/bundle.js --format umd --name 'js-utils'"
+  }
+}
