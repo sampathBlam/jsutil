@@ -21,6 +21,10 @@
     }
   },
   "eslintConfig": {
+    "env": {
+      "node": true,
+      "mocha": true
+    },
     "parserOptions": {
       "ecmaVersion": 2018
     },
