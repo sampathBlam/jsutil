@@ -1,6 +1,6 @@
 
-import validations from '../lib/validations';
-import constants from '../lib/constants';
+import validations from './utils/validations';
+import constants from './utils/constants';
 
 const { errorMessages } = constants;
 

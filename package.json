@@ -6,6 +6,9 @@
   "repository": "git@github.com:sampathBlam/jsutil.git",
   "author": "Locked-down coders",
   "license": "MIT",
+  "engines": {
+    "node": "10"
+  },
   "scripts": {
     "unit": "nyc _mocha --timeout 3000 --recursive test/ --exit",
     "test": "yarn unit",
@@ -82,9 +85,7 @@
     "husky": "^4.2.5",
     "mocha": "^7.1.2",
     "rollup": "^2.9.1",
-    "sinon": "^9.0.2"
-  },
-  "dependencies": {
+    "sinon": "^9.0.2",
     "nyc": "^15.0.1"
   }
 }

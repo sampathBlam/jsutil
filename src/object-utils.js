@@ -1,5 +1,5 @@
 
-import validators from '../lib/validations';
+import validators from './utils/validations';
 
 // Object utils
 const pick = (input, keys) => {
