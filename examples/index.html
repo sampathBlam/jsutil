@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../dist/bundle.js"></script>
+</head>
+<body>
+    Open console
+</body>
+<script>
+    (function () {
+        var sampleArray = [1, 2, 3, 4];
+        var sampleObject = {
+            name: 'Batman',
+            location: 'Gotham',
+            age: '40'
+        };
+
+        console.log(
+            `*Object.pick - Pick name and age: ${JSON.stringify(jsUtils.pick(sampleObject, ['name', 'age']))}\n`,
+            `*Array.reverse - Pick name and age: ${jsUtils.reverse(sampleArray)}\n`,
+        );
+    })();
+</script>
+</html>
